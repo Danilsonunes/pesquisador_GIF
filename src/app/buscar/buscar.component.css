@@ -1,0 +1,17 @@
+.nunes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: aliceblue;
+  margin: auto 50px;
+  font-family: "Lato", sans-serif;
+}
+.nunes a {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}

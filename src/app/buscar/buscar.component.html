@@ -1,0 +1,38 @@
+<div class="fondo">
+  <div class="nunes">
+    <h1>Danilsonunes</h1>
+    <a href="https://github.com/Danilsonunes">
+      <img
+        src="../../assets/images/git.png"
+        alt="GitHub"
+        width="64px"
+        height="64px"
+      />
+      GitHub!
+    </a>
+  </div>
+  <div class="s01">
+    <form #nossoForm="ngForm" (ngSubmit)="buscar(nossoForm.form)">
+      <fieldset>
+        <legend>Pesquisador de GIFs</legend>
+      </fieldset>
+      <div class="inner-form">
+        <div class="input-field first-wrap">
+          <input
+            id="search"
+            type="text"
+            placeholder="Hoje vai dar sorte!"
+            name="ask"
+            [(ngModel)]="ask"
+          />
+        </div>
+        <div class="input-field third-wrap">
+          <button class="btn-search" type="submit">Pesquisar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="footer-text">
+    <p>&copy; Danilson Nunes - 2020 | Todos os direitos reservados.</p>
+  </div>
+</div>
