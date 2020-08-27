@@ -12,6 +12,6 @@ export class BuscarComponent implements OnInit {
   ngOnInit(): void {}
 
   buscar(form) {
-    location.href = `/resultados/${form.value.ask}`;
+    location.href = `giphy_api/resultados/${form.value.ask}`;
   }
 }

@@ -5,7 +5,7 @@ import { BuscarComponent } from './buscar/buscar.component';
 
 const routes: Routes = [
   { path: '', component: BuscarComponent },
-  { path: 'resultados/:d', component: GifsComponent },
+  { path: 'giphy_api/resultados/:d', component: GifsComponent },
 ];
 
 @NgModule({
